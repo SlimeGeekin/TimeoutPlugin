@@ -1,0 +1,12 @@
+name: TimeoutPlugin
+version: '1.0-SNAPSHOT'
+main: me.eclipsorz.timeoutPlugin.TimeoutPlugin
+api-version: '1.21'
+commands:
+  timeout:
+    usage: /timeout <player> <time in minutes>
+
+
+    permissions:
+      timeout.use:
+        default: op
